@@ -4,7 +4,7 @@ metadata:
   name: myhw  
 spec:
   rules:
-  - host: "arch.homework"
+  - host: "10.16.8.110"
     http:
       paths:
       - pathType: Prefix
