@@ -3,6 +3,7 @@ kind: Service
 metadata:
   name: myhw
 spec:
+  type: ClusterIP
   selector:
     app: kubehwservice
   ports:
